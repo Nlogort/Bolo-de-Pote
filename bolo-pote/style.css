@@ -1,10 +1,29 @@
 body{
     font-family: Arial,sans-serif;
-   max-width: 200pt;
+   max-width:100%;
    line-height: 30pt;
+   text-align: center;
+}
+ 
+header{
+    background-color:  rgb(190, 151, 66);
+    
 }
 
 img{
     height: 300px;
 width: 300px;
+}
+
+a{
+    background-color: rgb(190, 151, 66);
+    text-decoration: none;
+    color: white;
+   display: inline-block;
+   border-radius: 6px;
+    padding: 12px 20px;
+}
+ 
+a:hover{
+    opacity: 0.9;
 }
