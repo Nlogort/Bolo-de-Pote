@@ -15,7 +15,7 @@ img{
 width: 300px;
 }
 
-a{
+.btn{
     background-color: rgb(190, 151, 66);
     text-decoration: none;
     color: white;
@@ -24,6 +24,6 @@ a{
     padding: 12px 20px;
 }
  
-a:hover{
+.btn:hover{
     opacity: 0.9;
 }
