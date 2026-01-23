@@ -8,8 +8,13 @@ body{
 header{
     background-color:  rgb(190, 151, 66);
     
+    
 }
-
+section{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
 img{
     height: 300px;
 width: 300px;
@@ -19,11 +24,15 @@ width: 300px;
     background-color: rgb(190, 151, 66);
     text-decoration: none;
     color: white;
-   display: inline-block;
+   display: inline-flex;
    border-radius: 6px;
     padding: 12px 20px;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+    cursor: pointer;
 }
  
 .btn:hover{
-    opacity: 0.9;
+ background-color: rgb(170, 135, 55);
 }
