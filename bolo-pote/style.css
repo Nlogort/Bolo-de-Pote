@@ -24,17 +24,21 @@ header {
     text-shadow: 2px 2px 4px rgba(0, 0, 0.3);
     color: white;
     text-align: center;
-}
-
-section {
-    margin-bottom: 40px;
     
 }
 
-.lista-sabores {
+section {
     display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+ align-items: center;
+}
+
+.lista-sabores {
+    display: inline-block;
     gap: 20px;
-    justify-content: center;
+    width: 45%;
+    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -67,4 +71,12 @@ img {
 
 .btn:hover {
     background-color: rgb(170, 135, 55);
+}
+
+footer{
+    background-color:  rgb(170, 135, 55);
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px 0px;
 }
