@@ -12,46 +12,70 @@ body {
 }
 
 main {
-    max-width: 900px;
+    max-width: 100%;
     text-align: center;
     margin: auto;
+    
 
 }
 
 header {
     background-color: rgb(190, 151, 66);
     padding: 40px 20px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0.3);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0,0.5);
     color: white;
     text-align: center;
     
 }
 
+
 section {
-    display: flex;
+    
     flex-direction: column;
-    margin: 10px 0px;
+    margin: 40px 0px;
+   
  align-items: center;
+
 }
 
-.lista-sabores {
-    display: inline-block;
-    gap: 20px;
-    width: 45%;
+section:not(.lista-sabores){
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
     align-items: center;
+}
+
+
+
+.lista-sabores {
+    display: flex !important;
+    flex-direction: row !important;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+   padding: 20px 0;
+}
+
+.lista-sabores article{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 
 .acoes {
     display: flex;
-    justify-content: center;
-    gap: 12px;
+    align-items: center;
+    gap: 15px;
 }
 
 img {
-    height: 300px;
-    width: 300px;
+    height: auto;
+    max-width:  100%;
     object-fit: cover;
+    border-radius: 15px;
 }
 
 .btn {
